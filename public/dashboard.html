@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+        function logout() {
+                // Redirect to the login page
+                window.location.href = 'index.html';
+        }
+        </script>
+  <title>Dashboard</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding-top: 100px;
+      text-align: center;
+    }
+    h2 {
+      margin-bottom: 20px;
+    }
+    p {
+      margin-bottom: 10px;
+    }
+    .logout-btn {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Welcome to the Dashboard</h2>
+    <p>You are now logged in.</p>
+    <p>This is the content of your dashboard.</p>
+    <button class="logout-btn" onclick="logout()">Logout</button>
+  </div>
+</body>
+</html>
